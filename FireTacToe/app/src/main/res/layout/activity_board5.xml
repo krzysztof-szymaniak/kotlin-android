@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Board5">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="*"
+        android:shrinkColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b00"
+                android:textSize="60sp"
+                android:onClick="b00"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b01"
+                android:textSize="60sp"
+                android:onClick="b01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b02"
+                android:textSize="60sp"
+                android:onClick="b02"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b03"
+                android:textSize="60sp"
+                android:onClick="b03"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b04"
+                android:textSize="60sp"
+                android:onClick="b04"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b10"
+                android:textSize="60sp"
+                android:onClick="b10"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b11"
+                android:textSize="60sp"
+                android:onClick="b11"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b12"
+                android:textSize="60sp"
+                android:onClick="b12"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b13"
+                android:textSize="60sp"
+                android:onClick="b13"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b14"
+                android:textSize="60sp"
+                android:onClick="b14"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b20"
+                android:textSize="60sp"
+                android:onClick="b20"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b21"
+                android:textSize="60sp"
+                android:onClick="b21"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b22"
+                android:textSize="60sp"
+                android:onClick="b22"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b23"
+                android:textSize="60sp"
+                android:onClick="b23"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b24"
+                android:textSize="60sp"
+                android:onClick="b24"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b30"
+                android:textSize="60sp"
+                android:onClick="b30"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b31"
+                android:textSize="60sp"
+                android:onClick="b31"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b32"
+                android:textSize="60sp"
+                android:onClick="b32"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b33"
+                android:textSize="60sp"
+                android:onClick="b33"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b34"
+                android:textSize="60sp"
+                android:onClick="b34"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b40"
+                android:textSize="60sp"
+                android:onClick="b40"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b41"
+                android:textSize="60sp"
+                android:onClick="b41"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b42"
+                android:textSize="60sp"
+                android:onClick="b42"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b43"
+                android:textSize="60sp"
+                android:onClick="b43"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+
+            <Button
+                android:id="@+id/b44"
+                android:textSize="60sp"
+                android:onClick="b44"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_border" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

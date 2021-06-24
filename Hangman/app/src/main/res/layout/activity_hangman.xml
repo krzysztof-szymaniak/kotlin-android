@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hangman">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16000003"
+        android:src="@drawable/h0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#673AB7"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:fontFamily="sans-serif-smallcaps"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/a"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/a"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/aa"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/aa"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/B"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/b"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/C"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/c"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/cc"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/cc"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/D"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/d"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/e"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/e"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/ee"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/ee"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/F"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/f"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/G"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/g"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/H"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/h"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/I"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/i"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/J"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/j"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/K"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/k"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/L"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/l"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/ll"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/ll"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/M"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/m"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/N"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/n"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/nn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/nn"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/O"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/o"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/oo"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/oo"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/P"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/p"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/r"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/r"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/S"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/s"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/ss"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/ss"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/T"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/t"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/U"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/u"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/W"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/w"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/Y"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/y"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/Z"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:text="@string/z"
+                android:background="@drawable/button_border"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/zz"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:background="@drawable/button_border"
+                android:text="@string/zz"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/zzz"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="make_guess"
+                android:background="@drawable/button_border"
+                android:text="@string/zzz"
+                android:textSize="20sp" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
